@@ -1,0 +1,138 @@
+body .container {
+	padding: 0 18px;
+}
+
+/* Navbar section */
+
+nav .flex-container {
+	padding: 18px 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+	justify-items: center;
+}
+
+/* Hero section */
+
+.hero .img-section .fridge {
+	width: 150%;
+	height: auto;
+	
+}
+
+.hero .text-section {
+	width: 60%;
+}
+
+.hero .text-section h1 {
+	font-size: 48px;
+	line-height: 100%;
+	margin-bottom: 30px;
+}
+
+.hero .text-section p {
+	font-size: 20px;
+}
+
+.hero .text-section .buttons button {
+	margin-right: 12px;
+	font-size: 20px;
+	padding: 16px 22px;
+}
+
+.hero .text-section .buttons .item2 span {
+	font-size: 18px;
+}
+
+/* How we work section */
+
+#how-we-work .grid-container {
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	margin-bottom: 50px;
+	justify-items: center;
+}
+
+/* Why us section */
+
+#why-us .flex-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	padding-bottom: 50px;
+	justify-items: center;
+}
+
+/* Why better section */
+
+#why-better .flex-container {
+	flex-direction: column-reverse;
+}
+
+#why-better .flex-container .why-better-right {
+	padding-left: 0;
+}
+
+#why-better .flex-container .why-better-right {
+	margin: auto;
+}
+
+#why-better .flex-container .why-better-right h2 {
+	text-align: center;
+}
+
+#why-better .flex-container img {
+	max-width: 100%;
+	height:auto;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+/* About section */
+
+#about .flex-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1.2rem;
+	margin-bottom: 50px;
+	justify-items: center;
+}
+
+/* Brands section */
+
+#brands .grid-container {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+#brands .grid-container .card img {
+	max-width: 90%;
+	height: auto;
+}
+
+/* Form section */
+
+#form {
+	height: 550px;
+}
+
+#form img {
+	display: none;
+}
+
+#form .card {
+	position: static;
+	width: 100%;
+	margin-top: 50px;
+}
+
+/* Footer */
+
+footer .flex-container .flex-right .item3 span {
+	font-size: 20px;
+}
+
+footer .flex-container .flex-right .item5 img {
+	width: 100px;
+	height: auto;
+}

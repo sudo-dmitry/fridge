@@ -1,0 +1,387 @@
+body .container {
+	padding: 0 18px;
+}
+
+/* Navbar section */
+
+nav .flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 18px 0;
+	grid-gap: 0px;
+}
+
+nav .flex-container .item1 h4 {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+nav .flex-container .item1 {
+	padding-bottom: 20px;
+}
+
+nav .flex-container .item2 {
+	padding-bottom: 13px;
+}
+
+nav .flex-container .item3 {
+	padding-bottom: 13px;
+}
+
+nav .flex-container .item4 {
+	margin: auto;
+}
+
+/* Hero section */
+
+.hero .flex-container {
+	flex-direction: column-reverse;
+}
+
+.hero .text-section {
+	margin-bottom: 30px;
+	width: auto;
+}
+
+.hero .text-section h1 {
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.hero .text-section p {
+	font-size: 14px;
+}
+
+.hero .text-section .buttons button {
+	margin-right: 12px;
+	font-size: 16px;
+	padding: 16px;
+}
+
+.hero .text-section .buttons .item2 span {
+	font-size: 14px;
+}
+
+.hero .img-section {
+	height: 400px;
+}
+
+.hero .img-section .ellipse {
+	display: none;
+}
+
+.hero .img-section .fridge {
+	width: 80%;
+	height: auto;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.hero .img-section .greenstar {
+	position: relative;
+	z-index: 3;
+	top: 0px;
+	left: -30px;
+}
+
+/* How we work section */
+
+#how-we-work .grid-container {
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 1rem;
+	margin-bottom: 50px;
+}
+
+#how-we-work h2 {
+	font-size: 30px;
+	padding-top: 70px;
+	margin-bottom: 30px;
+}
+
+#how-we-work .card {
+	width: 100%;
+}
+
+#how-we-work .card .card-container {
+	width: 100%;
+}
+
+#how-we-work .card .card-container ul li:first-of-type {
+	font-size: 36px;
+}
+
+#how-we-work .card .card-container ul li:last-of-type {
+	font-size: 18px;
+}
+
+/* Why us section */
+
+#why-us h2 {
+	font-size: 30px;
+}
+
+#why-us .flex-container {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+}
+
+#why-us .card {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#why-us .card p {
+	padding: 0 40px;
+	justify-content: center;
+	text-justify: inter-word;
+	font-size: 18px;
+}
+
+/* Why better section */
+
+#why-better .flex-container {
+	flex-direction: column-reverse;
+}
+
+#why-better .flex-container .why-better-right {
+	padding-left: 0px;
+}
+
+#why-better .flex-container .why-better-right h2 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#why-better .flex-container .why-better-right .card {
+	width: 100%;
+	flex-direction: column;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+#why-better .flex-container .why-better-right .card img {
+	margin: auto;
+	margin-top: 20px;
+}
+
+#why-better .flex-container .why-better-right .card p {
+	padding-bottom: 20px;
+}
+
+#why-better .flex-container img {
+	max-width:100%;
+	height:auto;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+/* About section */
+
+#about h2 {
+	font-size: 30px;
+}
+
+#about .flex-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1.2rem;
+	margin-bottom: 50px;
+	justify-items: center;
+}
+
+#about .item p {
+	font-size: 18px;
+}
+
+/* Brands section */
+
+#brands h2 {
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+#brands .grid-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+#brands .grid-container .card img {
+	max-width: 90%;
+	height: auto;
+}
+
+/* Form section */
+
+#form {
+	height: 550px;
+}
+
+#form img {
+	display: none;
+}
+
+#form .card {
+	position: static;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#form .card h4 {
+	font-size: 30px;
+}
+
+#form .card p {
+	font-size: 20px;
+}
+
+#form .card p:last-child {
+	font-size: 14px;
+	width: 100%;
+	margin: auto;
+	padding: 20px 20px;
+}
+
+#form .card form {
+	padding: 0 10px;
+}
+
+#form .card .form-control input {
+	width: 300px;
+}
+
+/* Map section */
+
+#map img {
+	display: none;
+}
+
+#map {
+	height: 500px;
+	background-image: url('../img/map.png');
+	background-size: cover;
+	background-position: center;
+}
+
+/* Footer */
+
+footer .flex-container {
+	flex-direction: column;
+	padding: 18px 0;
+}
+
+footer .flex-container .flex-right {
+	flex-direction: column;
+}
+
+footer .flex-container .item1 h4 {
+	font-size: 20px;
+}
+
+footer .flex-container .flex-right .item3 {
+	margin: 20px 0;
+}
+
+footer .flex-container .flex-right .item5 {
+	margin: auto;
+}
+
+
+@media(max-width: 320px) {
+	.hero .text-section h1 {
+		font-size: 36px;
+		margin-top: 20px;
+	}
+
+	.hero .text-section .buttons button {
+		margin-right: 12px;
+		font-size: 12px;
+		padding: 12px;
+	}
+
+	#form .card {
+		position: static;
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	#form .card h4 {
+		font-size: 26px;
+	}
+
+	#form .card p {
+		font-size: 18px;
+	}
+
+	#form .card p:last-child {
+		font-size: 12px;
+		width: 100%;
+		margin: auto;
+		padding: 20px 20px;
+	}
+
+	#form .card form {
+		padding: 0 10px;
+	}
+
+	#form .card .form-control input {
+		width: 260px;
+	}
+
+	footer .flex-container .flex-right .item3 span {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 150%;
+		color: rgba(255, 255, 255, 0.5);
+		padding-right: 23px;
+	}
+
+	#about .item .inner {
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+		background: linear-gradient(264.96deg, #78B6FF 8.59%, #3C94FE 100%);
+		box-shadow: 0px 30px 90px #B7D0EB;
+		position: relative;
+		margin: auto;
+	}
+
+	#about .item .inner div {
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border: 2px solid rgba(255, 255, 255, 0.3);
+		border-radius: 50%;
+		display: table;
+	}
+
+	#about .item .inner div p {
+		text-align: center;
+		vertical-align: middle;
+		font-size: 30px;
+		color: #fff;
+		font-weight: 600;
+		display: table-cell;
+	}
+
+	#about .item:nth-child(3) .inner div p {
+		font-size: 22px;
+	}
+
+	#about .item p {
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		width: 146px;
+		margin: auto;
+		margin-top: 15px;
+	}
+
+	#about .item:last-child p {
+		width: 180px;
+	}
+}
