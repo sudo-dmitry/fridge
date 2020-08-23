@@ -702,17 +702,17 @@ footer .flex-container .flex-right .item3 {
 
 @font-face {
   font-family: "Gilroy";
-  src: url('font/Gilroy-Light.ttf');
+  src: url('../font/Gilroy-Light.ttf');
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url('font/Gilroy-Medium.ttf');
+  src: url('../font/Gilroy-Medium.ttf');
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url('font/Gilroy-Bold.ttf');
+  src: url('../font/Gilroy-Bold.ttf');
   font-weight: bold;
 }
