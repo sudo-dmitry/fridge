@@ -582,12 +582,14 @@ nav .flex-container .item4 button:focus {
 	border-radius: 5px;
 	border: none;
 	padding-left: 21px;
+	font-size: 16px;
 }
 
 #form .card .form-control input::placeholder {
 	color: #859AB1;
 	font-size: 16px;
 	line-height: 130%;
+	overflow: visible;
 }
 
 #form .card .form-control input:focus {
@@ -696,6 +698,263 @@ footer .flex-container .flex-right .item3 span {
 
 footer .flex-container .flex-right .item3 {
 	margin: auto;
+}
+
+/* Modals */
+
+	/* Tech */
+
+#popup-tech .overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	display: none;
+}
+
+#popup-tech .card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	background: linear-gradient(264.96deg, #78B6FF 8.59%, #3C94FE 100%);
+	box-shadow: 0px 30px 50px #414851;
+	width: 660px;
+	height: 522px;
+	border-radius: 10px;
+	z-index: 11;
+}
+
+#popup-tech .card.card-thanks {
+	height: 225px;
+}
+
+#popup-tech .card.card-thanks h4 {
+	width: 500px;
+}
+
+#popup-tech .close-btn {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	height: 50px;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 0 10px 0 0;
+}
+
+#popup-tech.active .overlay {
+	display: block;
+}
+
+#popup-tech.active .card {
+	transition: all 300ms ease-in-out;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+#popup-tech .card h4 {
+	width: 360px;
+	font-weight: 600;
+	font-size: 42px;
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 14px;
+	margin: auto;
+}
+
+#popup-tech .card p {
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 25px;
+}
+
+#popup-tech .card form {
+	margin: auto;
+	display: table;
+}
+
+#popup-tech .card .form-control {
+	padding-bottom: 10px;
+}
+
+#popup-tech .card .form-control input {
+	width: 400px;
+	height: 60px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 21px;
+	font-size: 16px;
+}
+
+#popup-tech .card .form-control input::placeholder {
+	color: #859AB1;
+	font-size: 16px;
+	line-height: 130%;
+	overflow: visible;
+}
+
+#popup-tech .card .form-control input:focus {
+	outline-color: #FF9F0F;
+}
+
+#popup-tech .card .form-control .btn {
+	margin-top: 3px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	background: linear-gradient(264.96deg, #FF9F0F 8.59%, #FF740F 100%);
+	box-shadow: 0px 10px 30px rgba(243, 186, 124, 0.3);
+	border-radius: 100px;
+	border: none;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}
+
+#popup-tech .card .btn:hover {
+	transform: scale(1.1);
+}
+
+#popup-tech .card .btn:focus {
+	outline: none;
+}
+
+ /* Call */
+
+#popup-call .overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	display: none;
+}
+
+#popup-call .card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	background: linear-gradient(264.96deg, #78B6FF 8.59%, #3C94FE 100%);
+	box-shadow: 0px 30px 50px #414851;
+	width: 660px;
+	height: 403px;
+	border-radius: 10px;
+	z-index: 11;
+}
+
+#popup-call .card.card-thanks {
+	height: 225px;
+}
+
+#popup-call .card.card-thanks h4 {
+	width: 500px;
+}
+
+#popup-call .close-btn {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	height: 50px;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 0 10px 0 0;
+}
+
+#popup-call.active .overlay {
+	display: block;
+}
+
+#popup-call.active .card {
+	transition: all 300ms ease-in-out;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+#popup-call .card h4 {
+	font-weight: 600;
+	font-size: 42px;
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 14px;
+	margin: auto;
+}
+
+#popup-call .card p {
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 25px;
+}
+
+#popup-call .card form {
+	margin: auto;
+	display: table;
+}
+
+#popup-call .card .form-control {
+	padding-bottom: 10px;
+}
+
+#popup-call .card .form-control input {
+	width: 400px;
+	height: 60px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 21px;
+	font-size: 16px;
+}
+
+#popup-call .card .form-control input::placeholder {
+	color: #859AB1;
+	font-size: 16px;
+	line-height: 130%;
+	overflow: visible;
+}
+
+#popup-call .card .form-control input:focus {
+	outline-color: #FF9F0F;
+}
+
+#popup-call .card .form-control .btn {
+	margin-top: 3px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	background: linear-gradient(264.96deg, #FF9F0F 8.59%, #FF740F 100%);
+	box-shadow: 0px 10px 30px rgba(243, 186, 124, 0.3);
+	border-radius: 100px;
+	border: none;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}
+
+#popup-call .card .btn:hover {
+	transform: scale(1.1);
+}
+
+#popup-call .card .btn:focus {
+	outline: none;
 }
 
 /* Font */

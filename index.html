@@ -30,7 +30,7 @@
 						<span>+7 (495) 784-93-81</span>
 					</div>
 					<div class="item4">
-						<button>Заказать звонок</button>
+						<button onclick="togglePopupCall()">Заказать звонок</button>
 					</div>
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 						<p>Если вы обнаружили поломку, смело вызывайте нашего специалиста. Он проведет диагностику и отремонтирует технику прямо у Вас дома.</p>
 						<p>Заказать выезд мастера можно по телефону<br><span>+7 (495) 784-93-81</span> или через наш сайт.</p>
 						<div class="buttons">
-							<button>Вызвать мастера</button>
+							<button onclick="togglePopupTech()">Вызвать мастера</button>
 							<div class="item2">
 							<img src="img/clock.png" alt="clock">
 							<div><span>Приедем</span><br><span>за 30 минут</span></div>
@@ -324,5 +324,62 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- Modals -->
+
+		<!-- Tech -->
+
+	<div class="popup" id="popup-tech">
+		<div class="overlay" onclick="togglePopupTech()"></div>
+		<div class="card">
+			<div class="close-btn" onclick="togglePopupTech()">&times;</div>
+			<h4>Оставить заявку на вызов мастера</h4>
+			<p>Мы свяжемся с вами в течение 5 минут</p>
+			<form>
+				<div class="form-control">
+					<label for="name"></label>
+					<input type="text" name="name" placeholder="Ваше имя">
+				</div>
+				<div class="form-control">
+					<label for="phone"></label>
+					<input type="tel" name="phone" placeholder="Номер телефона">
+				</div>
+				<div class="form-control">
+					<label for="email"></label>
+					<input type="email" name="email" placeholder="E-mail">
+				</div>
+				<div class="form-control">
+					<input type="submit" value="Отправить заявку" class="btn" id="thanks1">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- Call -->
+
+	<div class="popup" id="popup-call">
+		<div class="overlay" onclick="togglePopupCall()"></div>
+		<div class="card">
+			<div class="close-btn" onclick="togglePopupCall()">&times;</div>
+			<h4>Заказать обратный звонок</h4>
+			<p>Мы перезвоним вам в течение 5 минут</p>
+			<form>
+				<div class="form-control">
+					<label for="name"></label>
+					<input type="text" name="name" placeholder="Ваше имя">
+				</div>
+				<div class="form-control">
+					<label for="phone"></label>
+					<input type="tel" name="phone" placeholder="Номер телефона">
+				</div>
+				<div class="form-control">
+					<input type="submit" value="Заказать звонок" class="btn" id="thanks2">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
