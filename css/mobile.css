@@ -12,7 +12,7 @@ nav .flex-container {
 	grid-gap: 0px;
 }
 
-nav .flex-container .item1 h4 {
+nav .flex-container .item1 div {
 	font-size: 20px;
 	line-height: 24px;
 }

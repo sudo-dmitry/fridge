@@ -27,7 +27,7 @@ nav .flex-container .item1 {
 	display: flex;
 }
 
-nav .flex-container .item1 h4 {
+nav .flex-container .item1 div {
 	font-size: 24px;
 	line-height: 29px;
 	font-weight: bold;
@@ -320,7 +320,7 @@ nav .flex-container .item4 button:focus {
 	padding-bottom: 9px;
 }
 
-#why-us .card h4 {
+#why-us .card .card-head {
 	text-align: center;
 	font-size: 20px;
 	font-weight: 600;
@@ -379,7 +379,7 @@ nav .flex-container .item4 button:focus {
 	margin-right: 25px;
 }
 
-#why-better .flex-container .why-better-right .card h4 {
+#why-better .flex-container .why-better-right .card .card-head {
 	font-size: 20px;
 	font-weight: 600;
 	margin-top: 30px;
