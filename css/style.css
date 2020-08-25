@@ -231,7 +231,7 @@ nav .flex-container .item4 button:focus {
 #how-we-work .grid-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 3rem;
+	grid-gap: 2rem;
 }
 
 #how-we-work .card {
@@ -363,7 +363,7 @@ nav .flex-container .item4 button:focus {
 #why-better .flex-container .why-better-right .card {
 	border: 1px solid #C9D6E7;
 	border-radius: 5px;
-	width: 600px;
+	width: 500px;
 	min-height: 130px;
 	display: flex;
 	margin-bottom: 10px;
@@ -975,4 +975,28 @@ footer .flex-container .flex-right .item3 {
   font-family: "Gilroy";
   src: url('../font/Gilroy-Bold.ttf');
   font-weight: bold;
+}
+
+@media(max-width: 1415px) {
+	#form .container .ellipse {
+		right: -30px;		
+	}
+}
+
+@media(max-width: 1280px) {
+	#form .container .ellipse {
+		display: none;		
+	}
+}
+
+@media(max-width: 1200px) {
+	#form .container .ellipse {
+		display: none;		
+	}
+}
+
+@media(max-width: 1165px) {
+	#how-we-work .grid-container {
+		grid-gap: .8rem;
+	}
 }
