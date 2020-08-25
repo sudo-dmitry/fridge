@@ -64,7 +64,7 @@ nav .flex-container .item4 {
 }
 
 .hero .img-section {
-	height: 400px;
+	height: 345px;
 }
 
 .hero .img-section .ellipse {
@@ -113,6 +113,7 @@ nav .flex-container .item4 {
 
 #how-we-work .card .card-container ul li:last-of-type {
 	font-size: 18px;
+	width: 140px;
 }
 
 /* Why us section */
@@ -288,7 +289,7 @@ footer .flex-container .flex-right .item5 {
 }
 
 
-@media(max-width: 320px) {
+@media(max-width: 340px) {
 	.hero .text-section h1 {
 		font-size: 36px;
 		margin-top: 20px;
@@ -374,7 +375,7 @@ footer .flex-container .flex-right .item5 {
 
 	#about .item p {
 		text-align: center;
-		font-size: 18px;
+		font-size: 14px;
 		font-weight: bold;
 		width: 146px;
 		margin: auto;
@@ -382,7 +383,7 @@ footer .flex-container .flex-right .item5 {
 	}
 
 	#about .item:last-child p {
-		width: 180px;
+		width: 150px;
 	}
 }
 

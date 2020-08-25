@@ -156,6 +156,7 @@ nav .flex-container .item4 button:focus {
 .hero .text-section p {
 	font-size: 18px;
 	max-width: 492px;
+	line-height: 150%;
 }
 
 .hero .text-section p:first-of-type {
@@ -272,6 +273,7 @@ nav .flex-container .item4 button:focus {
 #how-we-work .card .card-container ul li:last-of-type {
 	font-size: 20px;
 	font-weight: 600;
+	width: 200px;
 }
 
 #how-we-work .card .icon {
@@ -588,7 +590,7 @@ nav .flex-container .item4 button:focus {
 #form .card .form-control input::placeholder {
 	color: #859AB1;
 	font-size: 16px;
-	line-height: 130%;
+	line-height: 60px;
 	overflow: visible;
 }
 
